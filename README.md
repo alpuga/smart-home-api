@@ -6,14 +6,14 @@ All responses will have the form
 
 ```json
 {
-	“data”: “Mixed type holding the content of the response”,
-	“message”: “Description of what happened”
+  "data": "Mixed type holding the content of the response",
+  "message": "Description of what happened"
 }
 ```
 
 Subsequent response definitions will only detail the expected value of the `data field`
 
-### List all devices
+### List All Devices
 
 **Definition**
 
@@ -40,7 +40,7 @@ Subsequent response definitions will only detail the expected value of the `data
 ]
 ```
 
-### Registering a new device
+### Registering A New Device
 
 **Definition**
 
@@ -67,7 +67,7 @@ If a device already exists it will just be overwritten.
 }
 ```
 
-## Lookup device details
+### Lookup Device Details
 
 `GET /device/<identifier>`
 
@@ -85,7 +85,7 @@ If a device already exists it will just be overwritten.
 }
 ```
 
-## Delete a device
+### Delete A Device
 
 **Definition**
 
